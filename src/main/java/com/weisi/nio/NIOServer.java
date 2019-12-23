@@ -37,6 +37,7 @@ public class NIOServer {
             }
             //说明有返回selectkey
             Set<SelectionKey> selectionKeys = selector.selectedKeys();
+            System.out.println("通道数量为: " + selectionKeys.size());
             //遍历
             Iterator<SelectionKey> iterator = selectionKeys.iterator();
 

@@ -27,7 +27,7 @@ public class NIOClient {
             }
 
         }
-        Thread.sleep(10000);
+//        Thread.sleep(10000);
         String str = "hello，weisi";
         ByteBuffer buffer = ByteBuffer.wrap(str.getBytes());
 
